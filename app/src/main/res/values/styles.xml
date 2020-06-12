@@ -12,6 +12,7 @@
     <declare-styleable name="WaveView">
         <attr name="wvBackgroundColor" format="color" />
         <attr name="wvLineColor" format="color" />
+        <attr name="wvMoveSpeed" format="float" />
         <attr name="wvProgressColor" format="color" />
         <attr name="wvCursorColor" format="color" />
         <attr name="wvSensibility" format="integer" />
@@ -21,13 +22,13 @@
     </declare-styleable>
 
     <declare-styleable name="WaveSeekBar">
-        <attr name="wvBackgroundColor" format="color" />
-        <attr name="wvLineColor" format="color" />
-        <attr name="wvProgressColor" format="color" />
-        <attr name="wvCursorColor" format="color" />
-        <attr name="wvGapWidth" format="dimension" />
-        <attr name="wvLitterBarWidth" format="dimension" />
-        <attr name="wvLitterBarMinHeight" format="dimension" />
+        <attr name="wsbBackgroundColor" format="color" />
+        <attr name="wsbLineColor" format="color" />
+        <attr name="wsbProgressColor" format="color" />
+        <attr name="wsbCursorColor" format="color" />
+        <attr name="wsbGapWidth" format="dimension" />
+        <attr name="wsbLitterBarWidth" format="dimension" />
+        <attr name="wsbLitterBarMinHeight" format="dimension" />
     </declare-styleable>
 
 

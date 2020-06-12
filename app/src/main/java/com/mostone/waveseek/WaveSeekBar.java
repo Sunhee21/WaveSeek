@@ -158,14 +158,14 @@ public class WaveSeekBar extends View {
 
     private void initAttr(AttributeSet attrs) {
         TypedArray t = getContext().obtainStyledAttributes(attrs, R.styleable.WaveSeekBar);
-        lineColor = t.getColor(R.styleable.WaveView_wvLineColor, Color.parseColor("#2ED184"));
-        progressColor = t.getColor(R.styleable.WaveView_wvProgressColor, Color.BLACK);
-        cursorColor = t.getColor(R.styleable.WaveView_wvCursorColor, Color.BLACK);
+        lineColor = t.getColor(R.styleable.WaveSeekBar_wsbLineColor, Color.parseColor("#2ED184"));
+        progressColor = t.getColor(R.styleable.WaveSeekBar_wsbProgressColor, Color.BLACK);
+        cursorColor = t.getColor(R.styleable.WaveSeekBar_wsbCursorColor, Color.BLACK);
         offsetSpeed = DEFAULT_OFFSET_SPEED;
         sensibility = DEFAULT_SENSIBILITY;
-        littleBarWidth = t.getDimension(R.styleable.WaveView_wvLitterBarWidth, 5f);
-        littleBarMinHeight = t.getDimension(R.styleable.WaveView_wvLitterBarMinHeight, 5f);
-        gapWidth = t.getDimension(R.styleable.WaveView_wvGapWidth, 5f);
+        littleBarWidth = t.getDimension(R.styleable.WaveSeekBar_wsbLitterBarWidth, 5f);
+        littleBarMinHeight = t.getDimension(R.styleable.WaveSeekBar_wsbLitterBarMinHeight, 5f);
+        gapWidth = t.getDimension(R.styleable.WaveSeekBar_wsbGapWidth, 5f);
 
         cursorPadding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,20, getContext().getResources().getDisplayMetrics());
         cursorWidth = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,1, getContext().getResources().getDisplayMetrics());
