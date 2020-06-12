@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <declare-styleable name="WaveView">
+        <attr name="wvBackgroundColor" format="color" />
+        <attr name="wvLineColor" format="color" />
+        <attr name="wvProgressColor" format="color" />
+        <attr name="wvCursorColor" format="color" />
+        <attr name="wvSensibility" format="integer" />
+        <attr name="wvGapWidth" format="dimension" />
+        <attr name="wvLitterBarWidth" format="dimension" />
+        <attr name="wvLitterBarMinHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="WaveSeekBar">
+        <attr name="wvBackgroundColor" format="color" />
+        <attr name="wvLineColor" format="color" />
+        <attr name="wvProgressColor" format="color" />
+        <attr name="wvCursorColor" format="color" />
+        <attr name="wvGapWidth" format="dimension" />
+        <attr name="wvLitterBarWidth" format="dimension" />
+        <attr name="wvLitterBarMinHeight" format="dimension" />
+    </declare-styleable>
+
+
+</resources>
